@@ -9,3 +9,7 @@
 - `HEAD`: where your currently are (the version of the files on your computer)
 - `git diff HEAD~<NUM> <FILE>`: ompares current file to file <NUM> ago
    -`git diff HEAD~<HASH> <FILE>`: ompares current file <HASH> version
+- `git status` to help you find the commands to unstage or restore file
+- `git checkout <HASH> <FILE>`: restore <FILE> to version in <HASH>
+   - if you run `git checkout <HASH>` without the <FILE>
+   - You an fix this running `git checkout main` 
