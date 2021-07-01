@@ -4,3 +4,4 @@
 - `git status`: gives you the status
 - `git add <FILE>`: add <FILE> to the staging area
 - `git commit`: creates a commit, you provide message
+- `git log`: shows your log for commits
