@@ -5,3 +5,7 @@
 - `git add <FILE>`: add <FILE> to the staging area
 - `git commit`: creates a commit, you provide message
 - `git log`: shows your log for commits
+   - `git log --oneline`; shows you the one line version og log
+- `HEAD`: where your currently are (the version of the files on your computer)
+- `git diff HEAD~<NUM> <FILE>`: ompares current file to file <NUM> ago
+   -`git diff HEAD~<HASH> <FILE>`: ompares current file <HASH> version
